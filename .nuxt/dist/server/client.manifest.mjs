@@ -1,0 +1,1 @@
+export { default } from "file:///Users/phuad/Desktop/Dev/Js/Vue/oculus/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

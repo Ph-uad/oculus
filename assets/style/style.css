@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@200;400;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 77.75em) {
+  html {
+    font-size: 56.5%;
+  }
+}
+@media (max-width: 59em) {
+  html {
+    font-size: 61%;
+  }
+}
+@media (max-width: 58em) {
+  html {
+    font-size: 59.5%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 56%;
+  }
+}
+@media (max-width: 31.25em) {
+  html {
+    font-size: 35.75%;
+  }
+}
+
+:root {
+  --color--white: #f3f3f3;
+}
+
+body {
+  line-height: 1.6;
+  font-family: "Inter", sans-serif;
+  background: var(--color--white);
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 4rem;
+  text-transform: lowercase;
+  word-spacing: -0.4ch;
+  font-family: "Abel", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  text-transform: uppercase;
+  transition: 0.4s linear;
+}
+.link:hover {
+  color: #424242;
+}
+
+.heading--secondary {
+  font-size: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.center--text {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  gap: 2rem;
+}
+
+.list--item {
+  list-style-type: none;
+}
+
+.icon--image {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 2rem;
+  transition: 0.4s linear;
+}
+.icon--image:hover {
+  cursor: pointer;
+  fill: #424242;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 64em) {
+  .container {
+    width: 80%;
+  }
+}
+
+section {
+  margin-top: 12rem;
+}
+
+.title--margin {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 0.7rem 1.4rem;
+  font-size: 1.5rem;
+  border: 1px solid var(--color--white);
+  margin-top: 1rem;
+  text-transform: capitalize;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
