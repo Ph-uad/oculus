@@ -20,9 +20,8 @@ export default {};
 
 <style scoped>
 .slider{
-    width: 90vw;
-    margin: 0 auto;
     overflow: auto;
+    overflow-y: hidden;
 }
 
 .grid {
