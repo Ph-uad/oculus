@@ -3,7 +3,7 @@
     <div class="container header__container">
         <div class="header__details center--text">
                <h2 class="heading--secondary ">The Best style</h2>
-            <p class="paragraph ">for every occasion</p>
+            <p class="heading--sub ">for every occasion</p>
             <button class="btn">shop now</button>
         </div>
          

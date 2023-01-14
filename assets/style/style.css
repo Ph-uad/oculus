@@ -71,10 +71,13 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+.heading--sub {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
 
 .paragraph {
   font-size: 1.5rem;
-  text-transform: capitalize;
 }
 
 .center--text {

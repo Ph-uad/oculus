@@ -1,7 +1,10 @@
 <template>
-    <div class="nav">
+  <div class="nav">
     <div class="container flex">
-      <h4 class="logo">Oculus</h4>
+      <NuxtLink to="/" class="link">
+        <h4 class="logo">Oculus</h4>
+      </NuxtLink>
+
       <ul class="list flex">
         <li class="list--item"><a href="" class="link">sunglasses</a></li>
         <li class="list--item"><a href="" class="link">eyeglasses</a></li>
@@ -17,11 +20,8 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>

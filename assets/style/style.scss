@@ -77,13 +77,16 @@ body {
     text-align: center;
     text-transform: uppercase;
   }
+
+  &--sub{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
 }
 
 .paragraph{
   font-size: 1.5rem;
-  text-transform: capitalize;
 }
-
 //
 
 // layout
