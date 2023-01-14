@@ -3,12 +3,12 @@
     <div class="container categroy__container">
       <h2 class="heading--secondary title--margin">categories</h2>
       <div class="flex">
-        <NuxtLink to="/" class="link category__block">
+        <NuxtLink to="/listing" class="link category__block">
           <div class="">
             <h3 class="category__label heading--tertiary">sunlasses</h3>
           </div>
         </NuxtLink>
-        <NuxtLink to="/" class="link category__block">
+        <NuxtLink to="/listing" class="link category__block">
           <div class="">
             <h3 class="category__label heading--tertiary">eyeglasses</h3>
           </div>

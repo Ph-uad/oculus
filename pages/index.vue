@@ -2,7 +2,6 @@
   <div class="">
     <Navbar />
     <Header />
-    <NuxtLink to="/listing">Home page</NuxtLink>
     <Categories />
     <Gallery/>
     <Footer/>
