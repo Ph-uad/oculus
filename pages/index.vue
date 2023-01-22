@@ -5,7 +5,6 @@
     <Categories />
     <Gallery/>
     <Footer/>
-
   </div>
 </template>
 
