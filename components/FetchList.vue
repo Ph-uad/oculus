@@ -9,17 +9,19 @@
         class="item"
         @click="previewItemHandler(item)"
       >
-        <figure class="picture">
-          <img src="item.image" alt="glasses" class="img" />
-        </figure>
-        <h2>{{ item.name }}</h2>
-        <div
-          v-for="color in item.color"
-          :key="(Math.random() * 100) / color.length"
-          class=""
-        >
-          <span>{{ color }}</span>
+        <div class="" >
+          <figure class="picture"></figure>
+          <h2>{{ item.name }}</h2>
+          <div
+            v-for="color in item.color"
+            :key="(Math.random() * 100) / color.length"
+            class="">
+
+            <span>{{ color }}</span>
+          </div>
         </div>
+
+        <img src="item.image" alt="glasses" class="img" />
       </li>
     </ul>
   </div>
@@ -386,7 +388,7 @@ export default {
   methods: {
     previewItemHandler(item) {
       this.previewedItem = [item];
-      console.log(this.previewedItem)
+      console.log(this.previewedItem);
     },
   },
 };

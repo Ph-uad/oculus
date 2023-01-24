@@ -19,7 +19,18 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data(){
+    return{
+      user: "data"
+    }
+  },
+  methods:{
+    onClick(){
+      console.log(this.user)
+    }
+  }
+};
 </script>
 
 <style scoped>
