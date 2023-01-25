@@ -6,9 +6,15 @@
       </NuxtLink>
 
       <ul class="list flex">
-        <li class="list--item"><a href="" class="link">sunglasses</a></li>
-        <li class="list--item"><a href="" class="link">eyeglasses</a></li>
-        <li class="list--item"><a href="" class="link">stores</a></li>
+        <li class="list--item">
+          <NuxtLink to="/listing" class="link">sunglasses</NuxtLink>
+        </li>
+        <li class="list--item">
+          <NuxtLink to="/listing" class="link">eyeglasses</NuxtLink>
+        </li>
+        <li class="list--item">
+          <NuxtLink to="/" class="link">stores</NuxtLink>
+        </li>
       </ul>
       <div class="icon--container flex">
         <svg class="icon--image">
