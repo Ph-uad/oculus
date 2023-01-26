@@ -2,11 +2,11 @@
   <div class="container">
     <h2 class="heading--secondary title--margin">Listing</h2>
 
-  <div class="" v-if="isPreviwedItem">
-   <div class="flex preview">
+    <div class="" v-if="isPreviwedItem">
+      <div class="flex preview">
         <figure class="picture preview__figure">
           <img src="{previwedItem.image}" alt="glasses" class="img" />
-         </figure>
+        </figure>
 
         <div class="">
           <h2 class="heading--secondary">{{ previewedItem.name }}</h2>
@@ -410,11 +410,13 @@ export default {
   methods: {
     previewItemHandler(item) {
       this.previewedItem = item;
-      this.isPreviwedItem = true
+      this.isPreviwedItem = true;
       console.log(this.previewedItem);
     },
+    sunglassesHandler() {
+      console.log(this.user);
+    },
   },
-
 };
 </script>
 
