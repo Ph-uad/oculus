@@ -77,7 +77,7 @@ export default {
 
 <style scoped>
 .list__container {
-  height: max(70vh, 90rem);
+  height: max(50vh, 30rem);
   overflow-y: auto;
 }
 .grid {

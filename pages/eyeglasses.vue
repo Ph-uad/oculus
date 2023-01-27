@@ -15,6 +15,6 @@ import Footer from '../layout/Footer.vue'
 import "../assets/style/style.css";
 
 export default defineComponent({
-  components: { Navbar, Eyeglasses, PostList, Footer},  
+  components: { Navbar, Eyeglasses, Footer},  
 });
 </script>

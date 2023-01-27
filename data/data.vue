@@ -6,7 +6,7 @@ export default {
           name: "jaden google's",
           image: "",
           color: ["red"],
-          type: "Eyeglasses",
+          type: "eyeglasses",
           description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, a!Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, a!",
         },
@@ -14,7 +14,7 @@ export default {
           id: 2,
           name: "Kulos",
           image: "",
-          type: "Eyeglasses",
+          type: "eyeglasses",
           color: ["blue"],
           description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, a!Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, a!",
@@ -158,7 +158,7 @@ export default {
           id: 18,
           name: "Dok ki",
           color: ["red", "blue", "yellow"],
-          type: "Eyeglasses",
+          type: "eyeglasses",
           description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, a!Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, a!",
         },
@@ -166,7 +166,7 @@ export default {
           id: 19,
           name: "ook ki",
           color: ["red", "blue", "yellow"],
-          type: "Eyeglasses",
+          type: "eyeglasses",
           description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, a!Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, a!",
         },
