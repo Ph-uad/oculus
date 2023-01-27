@@ -23,7 +23,7 @@ import 'node:fs';
 import 'node:url';
 import 'pathe';
 
-var _a, _b;
+var _a, _b, _c, _d, _e, _f;
 const appConfig = useRuntimeConfig$1().app;
 const baseURL = () => appConfig.baseURL;
 const nuxtAppCtx = getContext("nuxt-app");
@@ -345,7 +345,7 @@ function defineNuxtLink(options) {
       const prefetched = ref(false);
       const el = void 0;
       return () => {
-        var _a2, _b2, _c;
+        var _a2, _b2, _c2;
         if (!isExternal.value) {
           return h(
             resolveComponent("RouterLink"),
@@ -381,7 +381,7 @@ function defineNuxtLink(options) {
             isExactActive: false
           });
         }
-        return h("a", { ref: el, href, rel, target }, (_c = slots.default) == null ? void 0 : _c.call(slots));
+        return h("a", { ref: el, href, rel, target }, (_c2 = slots.default) == null ? void 0 : _c2.call(slots));
       };
     }
   });
@@ -521,17 +521,39 @@ const node_modules_nuxt_dist_head_runtime_lib_vueuse_head_plugin_mjs_D7WGfuP1A0 
     };
   }
 });
+const __nuxt_page_meta$2 = {};
+const __nuxt_page_meta$1 = {};
 const __nuxt_page_meta = {};
 const _routes = [
   {
-    name: (_a = __nuxt_page_meta == null ? void 0 : __nuxt_page_meta.name) != null ? _a : "index",
-    path: (_b = __nuxt_page_meta == null ? void 0 : __nuxt_page_meta.path) != null ? _b : "/",
-    file: "/workspaces/oculus/pages/index.vue",
+    name: (_a = __nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.name) != null ? _a : "About",
+    path: (_b = __nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.path) != null ? _b : "/About",
+    file: "/Users/phuad/Desktop/Dev/Js/Vue/oculus/pages/About.vue",
+    children: [],
+    meta: __nuxt_page_meta$2,
+    alias: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.alias) || [],
+    redirect: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.redirect) || void 0,
+    component: () => import('./_nuxt/About.24b364a9.mjs').then((m) => m.default || m)
+  },
+  {
+    name: (_c = __nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.name) != null ? _c : "index",
+    path: (_d = __nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.path) != null ? _d : "/",
+    file: "/Users/phuad/Desktop/Dev/Js/Vue/oculus/pages/index.vue",
+    children: [],
+    meta: __nuxt_page_meta$1,
+    alias: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.alias) || [],
+    redirect: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect) || void 0,
+    component: () => import('./_nuxt/index.32f425f0.mjs').then((m) => m.default || m)
+  },
+  {
+    name: (_e = __nuxt_page_meta == null ? void 0 : __nuxt_page_meta.name) != null ? _e : "sunglasses",
+    path: (_f = __nuxt_page_meta == null ? void 0 : __nuxt_page_meta.path) != null ? _f : "/sunglasses",
+    file: "/Users/phuad/Desktop/Dev/Js/Vue/oculus/pages/sunglasses.vue",
     children: [],
     meta: __nuxt_page_meta,
     alias: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.alias) || [],
     redirect: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.redirect) || void 0,
-    component: () => import('./_nuxt/index.d4e1430e.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/sunglasses.a406d5f8.mjs').then((m) => m.default || m)
   }
 ];
 const routerOptions0 = {
@@ -607,14 +629,14 @@ const globalMiddleware = [
 ];
 const namedMiddleware = {};
 const node_modules_nuxt_dist_pages_runtime_router_mjs_qNv5Ky2ZmB = defineNuxtPlugin(async (nuxtApp) => {
-  var _a2, _b2, _c, _d;
+  var _a2, _b2, _c2, _d2;
   let __temp, __restore;
   let routerBase = useRuntimeConfig().app.baseURL;
   if (routerOptions.hashMode && !routerBase.includes("#")) {
     routerBase += "#";
   }
   const history = (_b2 = (_a2 = routerOptions.history) == null ? void 0 : _a2.call(routerOptions, routerBase)) != null ? _b2 : createMemoryHistory(routerBase);
-  const routes = (_d = (_c = routerOptions.routes) == null ? void 0 : _c.call(routerOptions, _routes)) != null ? _d : _routes;
+  const routes = (_d2 = (_c2 = routerOptions.routes) == null ? void 0 : _c2.call(routerOptions, _routes)) != null ? _d2 : _routes;
   const initialURL = nuxtApp.ssrContext.url;
   const router = createRouter({
     ...routerOptions,
@@ -635,8 +657,8 @@ const node_modules_nuxt_dist_pages_runtime_router_mjs_qNv5Ky2ZmB = defineNuxtPlu
   };
   nuxtApp.hook("page:finish", syncCurrentRoute);
   router.afterEach((to, from) => {
-    var _a3, _b3, _c2, _d2;
-    if (((_b3 = (_a3 = to.matched[0]) == null ? void 0 : _a3.components) == null ? void 0 : _b3.default) === ((_d2 = (_c2 = from.matched[0]) == null ? void 0 : _c2.components) == null ? void 0 : _d2.default)) {
+    var _a3, _b3, _c3, _d3;
+    if (((_b3 = (_a3 = to.matched[0]) == null ? void 0 : _a3.components) == null ? void 0 : _b3.default) === ((_d3 = (_c3 = from.matched[0]) == null ? void 0 : _c3.components) == null ? void 0 : _d3.default)) {
       syncCurrentRoute();
     }
   });
@@ -832,7 +854,7 @@ const __nuxt_component_1 = defineComponent({
     return () => {
       return h(RouterView, { name: props.name, route: props.route, ...attrs }, {
         default: (routeProps) => {
-          var _a2, _b2, _c, _d;
+          var _a2, _b2, _c2, _d2;
           if (!routeProps.Component) {
             return;
           }
@@ -851,7 +873,7 @@ const __nuxt_component_1 = defineComponent({
             Transition,
             hasTransition && transitionProps,
             wrapInKeepAlive(
-              (_d = (_c = props.keepalive) != null ? _c : routeProps.route.meta.keepalive) != null ? _d : appKeepalive,
+              (_d2 = (_c2 = props.keepalive) != null ? _c2 : routeProps.route.meta.keepalive) != null ? _d2 : appKeepalive,
               h(Suspense, {
                 onPending: () => nuxtApp.callHook("page:start", routeProps.Component),
                 onResolve: () => {
@@ -925,7 +947,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const ErrorComponent = defineAsyncComponent(() => import('./_nuxt/error-component.8ac2c9e0.mjs').then((r) => r.default || r));
+    const ErrorComponent = defineAsyncComponent(() => import('./_nuxt/error-component.958448e9.mjs').then((r) => r.default || r));
     const nuxtApp = useNuxtApp();
     nuxtApp.deferHydration();
     provide("_route", useRoute());

@@ -7,10 +7,10 @@
 
       <ul class="list flex">
         <li class="list--item">
-          <NuxtLink to="/listing" class="link">sunglasses</NuxtLink>
+          <NuxtLink to="/sunglasses" class="link">sunglasses</NuxtLink>
         </li>
         <li class="list--item">
-          <NuxtLink to="/listing" class="link">eyeglasses</NuxtLink>
+          <NuxtLink to="/sunglasses" class="link">eyeglasses</NuxtLink>
         </li>
         <li class="list--item">
           <NuxtLink to="/" class="link">stores</NuxtLink>
