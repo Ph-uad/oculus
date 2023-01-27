@@ -71,6 +71,16 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+.heading--tertiary {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+.heading--quaternary {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: gray;
+}
 .heading--sub {
   font-size: 1.5rem;
   text-transform: capitalize;
@@ -141,4 +151,20 @@ section, .section {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.preview {
+  padding: 4rem;
+  margin: 4rem 0;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-shadow: 0 2px 2px gray;
+}
+
+.preview div figure {
+  flex: 0 0 30%;
+}
+
+.preview div div {
+  flex: 0 0 45%;
 }/*# sourceMappingURL=style.css.map */

@@ -10,11 +10,9 @@
           <NuxtLink to="/sunglasses" class="link">sunglasses</NuxtLink>
         </li>
         <li class="list--item">
-          <NuxtLink to="/sunglasses" class="link">eyeglasses</NuxtLink>
+          <NuxtLink to="/eyeglasses" class="link">eyeglasses</NuxtLink>
         </li>
-        <li class="list--item">
-          <NuxtLink to="/" class="link">stores</NuxtLink>
-        </li>
+
       </ul>
       <div class="icon--container flex">
         <svg class="icon--image">

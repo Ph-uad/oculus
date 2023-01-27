@@ -2,26 +2,21 @@
   <div class="container">
     <h2 class="heading--secondary title--margin">Listing</h2>
 
-    <!-- <div class="" v-if="isPreviwedItem">
-      <div class="flex preview">
+    <div class="preview" v-if="isPreviwedItem">
+      <div class="flex container">
+        <div class="">
+          <h2 class="heading--tertiary">{{ previewedItem.name }}</h2>
+          <h4 class="heading--quaternary">{{ previewedItem.type }}</h4>
+
+          <p class="paragraph">{{ previewedItem.description }}</p>
+        </div>
+
         <figure class="picture preview__figure">
           <img src="{previwedItem.image}" alt="glasses" class="img" />
         </figure>
-
-        <div class="">
-          <h2 class="heading--secondary">{{ previewedItem.name }}</h2>
-          <span
-            v-for="color in previewedItem.color"
-            :key="(Math.random() * 100) / color.length"
-            class=""
-          >
-            <span>{{ color }}</span>
-          </span>
-          <p>{{ previewedItem.description }}</p>
-          <p>{{ previewedItem.type }}</p>
-        </div>
       </div>
-    </div> -->
+    </div>
+
 
     <ul class="grid list__container">
       <li
@@ -92,11 +87,4 @@ export default {
   background: #8c8c8c;
 }
 
-.preview {
-  padding: 4rem;
-}
-
-.preview figure {
-  flex: 1 0 15%;
-}
 </style>
