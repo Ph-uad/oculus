@@ -5,9 +5,7 @@
         <div class="footer--details">
           <h3 class="heading--tertiary">oculus</h3>
           <p class="paragraph">
-            Oculus is conceptual project based on learning design ,development
-            with nuxt3 (vue typescript). It is a simple e-commerce project to
-            display minimalistic design to for a better user experience
+           &copy; badotter designs
           </p>
         </div>
         <div class="footer--list">
